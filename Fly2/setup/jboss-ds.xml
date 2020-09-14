@@ -4,7 +4,7 @@
         <jndi-name>PostgresDB</jndi-name>
         <connection-url>jdbc:postgresql://localhost:5432/postgres</connection-url>
         <driver-class>org.postgresql.Driver</driver-class>
-        <user-name>sgrisciuc</user-name>
+        <user-name>db-login</user-name>
         <password/>
         <pool>
             <min-pool-size>10</min-pool-size>
