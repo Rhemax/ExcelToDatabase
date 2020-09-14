@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources>
+    <local-tx-datasource>
+        <jndi-name>PostgresDB</jndi-name>
+        <connection-url>jdbc:postgresql://localhost:5432/postgres</connection-url>
+        <driver-class>org.postgresql.Driver</driver-class>
+        <user-name>sgrisciuc</user-name>
+        <password/>
+        <pool>
+            <min-pool-size>10</min-pool-size>
+            <max-pool-size>30</max-pool-size>
+            <prefill>true</prefill>
+        </pool>
+        <timeout>
+            <blocking-timeout-millis>120000</blocking-timeout-millis>
+            <idle-timeout-minutes>20</idle-timeout-minutes>
+        </timeout>
+        <idle-timeout-minutes>5</idle-timeout-minutes>
+    </local-tx-datasource>
+</datasources>
